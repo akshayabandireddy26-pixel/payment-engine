@@ -2,7 +2,7 @@
 
 The Payment Transaction Engine is a highly concurrent payment processing engine built using Python‚ FastAPI‚ SQLAlchemy‚ and Cloud-based PostgreSQL from Neon․
 
-Key Features:
+# Key Features:
 
 1․ User Wallet Management - Users that have signed up with the payment engine are credited an initial balance․
 2․ ACID Compliant Transfers- Balance transfers are done without any race condition by using the 'with for update' clause for row level locking․
