@@ -3,7 +3,7 @@
 Payment Transaction Engine
 Highly concurrent payment processing engine using Python‚ FastAPI‚ SQLAlchemy‚ and Cloud PostgreSQL (Neon)․
 
-🚀 Features
+Features
 User Wallet Management: Registered users may have an initial balance․
 
 ACID-Compliant Transfers: Safe balance transfers using row-level locking (withforupdate) to avoid race conditions․
@@ -12,7 +12,7 @@ Transaction History: Real-time logging of succeeded and failed transfers․
 
 Cloud Database Integration: Connected to serverless PostgreSQL data store at Neon․tech․
 
-🛠️ Tech Stack
+Tech Stack
 Backend: Python‚ FastAPI‚ Uvicorn
 
 ORM & Validation: SQLAlchemy‚ Pydantic
