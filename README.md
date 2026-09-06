@@ -1,23 +1,15 @@
 <<<<<<< HEAD
 
 Payment Transaction Engine
-Highly concurrent payment processing engine using Python‚ FastAPI‚ SQLAlchemy‚ and Cloud PostgreSQL (Neon)․
+The Payment Transaction Engine is a highly concurrent payment processing engine built using Python‚ FastAPI‚ SQLAlchemy‚ and Cloud-based PostgreSQL from Neon․
 
-Features
-User Wallet Management: Registered users may have an initial balance․
+Key Features:
 
-ACID-Compliant Transfers: Safe balance transfers using row-level locking (withforupdate) to avoid race conditions․
-
-Transaction History: Real-time logging of succeeded and failed transfers․
-
-Cloud Database Integration: Connected to serverless PostgreSQL data store at Neon․tech․
-
-Tech Stack
-Backend: Python‚ FastAPI‚ Uvicorn
-
-ORM & Validation: SQLAlchemy‚ Pydantic
-
-Database: PostgreSQL (Neon Cloud)
+1․ User Wallet Management - Users that have signed up with the payment engine are credited an initial balance․
+2․ ACID Compliant Transfers- Balance transfers are done without any race condition by using the 'with for update' clause for row level locking․
+3․ Transaction History - The transactions which were successful and which were failed shall be recorded in real time․
+4․ Cloud Database Integration - Neon provides a cloud-based data store for data storage․
+Tech Stack․ In terms of server-side technology stack‚ the payment engine has been built using Python‚ FastAPI and Uvicorn․ It uses SQLAlchemy and Pydantic for ORM and validation‚ and is based on a PostgreSQL database (Neon Cloud)․
   
 ## Live Demo & Testing
 
